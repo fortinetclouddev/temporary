@@ -122,7 +122,7 @@
                         }
                     },
                     "osProfile": {
-                        "computerNamePrefix": "[parameters('namingInfix')]",
+                        "computerNamePrefix": "azfngfw",
                         "adminUsername": "[parameters('adminUsername')]",
                         "adminPassword": "[parameters('adminPassword')]",
                         "customData": "[base64(variables('userdata'))]"
